@@ -1,0 +1,54 @@
+<div class="center">
+	<h1 class="h1"><span>Github</span> Search </h1>
+	
+
+</div>
+<div class="center">
+	<div class="inputsearch">
+		<input  class="search" id="search" name="search" type="search" placeholder="search" required [(ngModel)]="search">
+	</div>
+	<div class="buttonsearch">
+		<input   class="srchbtn icon icon-search" (click)="detail()" type="submit" value="&#xf002;"/>
+	</div>
+</div>
+
+
+
+
+<ng-template #NoR>
+	<div class="center"><div class="results" *ngIf="noResults;"><p>No hay Resultados</p><img src="../../assets/imgs/robot.jpg"></div></div>
+</ng-template>
+
+<div *ngIf="details; else NoR">
+  
+	<div *ngFor="let usr of user.items">
+		<div class="results">
+		<div class="left">
+		 <img src="{{usr.avatar_url}}" alt="Creating Email Magic" width="300" height="230" style="display: block;" />
+		 <h1>{{usr.login}}</h1>
+		 <h2>{{usr.login}}</h2>
+ 
+		 <ul>
+			 <li>The Galactic Empire</li>
+			 <li>Tatooine</li>
+			 <li>1.000.000</li>
+			 <li>4</li>
+			 <li>9.999.999</li>
+		 </ul>
+		</div>
+ 
+		<div class="right">
+		 <ul>
+			 <li>
+				 <h2>Death Star</h2>
+				 <p>The most powerful weapon in the universe.</p>
+				 <p>4200</p>
+
+			 </li>
+		 </ul>
+	 
+		</div>
+		</div>
+	</div>
+ 
+</div>

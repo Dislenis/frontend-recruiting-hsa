@@ -1,0 +1,126 @@
+.srch{
+    width:100%;
+    text-align:center;
+    margin:auto;
+  }
+  .center {
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+    text-align:center;
+  }
+  
+  .inputsearch input{
+    width: 100%;
+    height: 60px;
+  }
+  
+  .center span{
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  .buttonsearch input[type=button], input[type=submit], input[type=reset] {
+    width: 100%;
+    background-color: #a960ca;
+    border: none;
+    color: white;
+    height:60px;
+    text-decoration: none;
+    cursor: pointer;
+    text-align:center;
+  }
+  
+  .inputsearch{
+    width:70%;
+    float:left;
+  }
+  
+  .buttonsearch{
+    width:20%;
+    float:left;
+  }
+  
+  
+  .results{
+    display:block;
+    width:100%;
+    float:left;
+  }
+  
+  
+  .results{
+  
+    font-family: 'Helvetica', sans-serif;
+    padding:50px;
+  }
+  
+  .h1 {
+    float: left;
+    margin: 25px;
+    color: #333;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 45px;
+    font-weight: bold;
+    line-height: 45px;
+    text-align: center;
+  }
+  
+  .left{
+    float: left;
+    width: 30%;
+  
+    margin: 10px;
+    padding-left:  30px; 
+  }
+  
+  .right{
+    float :left;
+    width :60%;
+  
+    margin: 10px;
+    padding-left: 30px;
+  }
+  
+  h1{
+    margin: 0;
+    padding: 0;
+  
+  }
+  
+  h2{
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  .left li{
+    margin: 0;
+    padding: 0;
+  
+  }
+  
+  .left ul{
+    margin: 0;
+    padding: 0;
+    list-style:none
+  }
+  
+  
+  
+  .right li{
+    margin: 0;
+    padding: 0;
+  
+  }
+  
+  .right ul{
+    margin: 0;
+    padding: 0;
+    list-style:none
+  }
+  
+  
+  
+  
+  
+  
